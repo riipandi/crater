@@ -1071,6 +1071,14 @@
       "permission_confirm_desc": "Folder permission check failed",
       "permission_desc": "Below is the list of folder permissions which are required in order for the app to work. If the permission check fails, make sure to update your folder permissions."
     },
+    "verify_domain": {
+      "title": "Domain Verification",
+      "desc": "Crater uses Session based authentication which requires domain verification for security purposes. Please enter the domain on which you will be accessing your web application.",
+      "app_domain": "App Domain",
+      "verify_now": "Verify Now",
+      "success": "Domain Verify Successfully.",
+      "verify_and_continue": "Verify And Continue"
+    },
     "mail": {
       "host": "Mail Host",
       "port": "Mail Port",
@@ -1091,19 +1099,22 @@
     },
     "req": {
       "system_req": "System Requirements",
-      "php_req_version": "Php (version {version} required)",
+      "php_req_version": "Minimum Php (version {version} required)",
       "check_req": "Check Requirements",
       "system_req_desc": "Crater has a few server requirements. Make sure that your server has the required php version and all the extensions mentioned below."
     },
     "errors": {
       "migrate_failed": "Migrate Failed",
+      "domain_verification_failed": "Domain verification failed",
       "database_variables_save_error": "Cannot write configuration to .env file. Please check its file permissions",
       "mail_variables_save_error": "Email configuration failed.",
       "connection_failed": "Database connection failed",
-      "database_should_be_empty": "Database should be empty"
+      "database_should_be_empty": "Database should be empty",
+      "minimum_version_requirement": "Minimum {name} version {version} required."
     },
     "success": {
       "mail_variables_save_successfully": "Email configured successfully",
+      "domain_variable_save_successfully": "Domain configured successfully",
       "database_variables_save_successfully": "Database configured successfully."
     }
   },
